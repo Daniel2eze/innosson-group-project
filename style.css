@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* nav bar */
+.navbar{
+    background: rgba(225, 225, 225, 1);
+}
+
+.btn{
+    background: rgba(56, 214, 158, 1);
+    color: rgba(247, 247, 247, 1);
+    font-family: 'noto sans',sans-serif;
+    font-family: 600;
+}
+
+.nav-links{
+    color: rgb(15, 15, 1);
+    font-family: 'noto sans',sans-serif;
+    font-weight: 600;
+}
+
+/* main */
+main{
+    background-image: url(assets/hero\ image.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    /* width: 100%; */
+    background-size: cover;
+    height: 28rem;
+}
+
+.main-content h2{
+    font-family: 'noto sans',sans-serif;
+    font-weight: 700;
+    color: rgba(247, 247, 247, 1);
+}
+
+.main-content p{
+    font-family: 'noto sans',sans-serif;
+    font-weight: 500;
+    color: rgba(247, 247, 247, 1);
+}
+
+/* media query */
+
+@media (max-width: 475px) {
+    main p {
+        width: 100%
+    }
+    main h2 {
+        width:100%
+    }
+}
+/* media query for tab */
+
+@media (min-width: )
